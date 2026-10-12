@@ -1,0 +1,10 @@
+{
+  "name": "binance-ws-probe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Probe: can this host reach Binance futures WebSocket (fstream)?",
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "ws": "^8.18.0" }
+}
